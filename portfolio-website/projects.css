@@ -1,0 +1,20 @@
+main {
+  margin: 1rem;
+}
+
+main h1 {
+  margin-bottom: 0.5rem;
+}
+
+main ul {
+  list-style: disc;
+  padding-left: 1.75rem;
+}
+
+main ul li {
+  margin-bottom: 0.5rem;
+}
+
+main ul li a:hover {
+  color: #444;
+}

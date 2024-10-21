@@ -1,0 +1,69 @@
+main {
+  margin: 1rem;
+}
+
+main h1 {
+  margin-bottom: 0.5rem;
+}
+
+main form {
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  border-radius: 15px;
+  width: 450px;
+}
+
+main form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+main form input,
+main form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  border: 2px solid #333;
+  background-color: #f9f9f9;
+  font-size: 1.05rem;
+}
+
+main form input:focus,
+main form textarea:focus {
+  outline: none;
+  background-color: #ededed;
+  border: 2px solid #000;
+}
+
+main form textarea {
+  height: 150px;
+  resize: none;
+}
+
+main form button {
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main form button:focus {
+  outline: none;
+}
+
+main form button:hover,
+main form button:focus {
+  background-color: #eee;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main form {
+    width: 100%;
+  }
+}

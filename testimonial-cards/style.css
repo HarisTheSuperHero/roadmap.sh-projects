@@ -45,6 +45,7 @@ h3 {
   background-color: #111;
   color: #fff;
   border-radius: 14px;
+  height: 125px;
 }
 
 .first .msg p:first-child {
@@ -109,8 +110,6 @@ h3 {
 }
 
 .third img {
-  width: 300px;
-  height: 300px;
   border-radius: 20px;
 }
 

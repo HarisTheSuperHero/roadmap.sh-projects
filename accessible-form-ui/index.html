@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0e631e8c04.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Accessible Form UI</h1>
+    <div class="container">
+      <form id="left">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required class="error" />
+
+        <label for="password">Enter Password</label>
+        <div id="pass">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="xxxxxxxx"
+            required
+          />
+          <i class="fa-solid fa-eye"></i>
+        </div>
+
+        <label for="confirm-password">Confirm Password</label>
+        <div id="confirm-pass">
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="xxxxxxxx"
+            required
+          />
+          <i class="fa-solid fa-eye"></i>
+        </div>
+
+        <button type="submit">Update Profile</button>
+      </form>
+
+      <div id="right">
+        <div class="progress">
+          <div class="progress-bar"></div>
+          <h2>65%</h2>
+        </div>
+        <h2>Profile Completeness</h2>
+        <ul>
+          <li class="completed">Create Account</li>
+          <li class="completed">Update Roadmap Progress</li>
+          <li class="completed">Setup Public Profile</li>
+          <li>Complete your First Project</li>
+          <li>Invite your Friends</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
